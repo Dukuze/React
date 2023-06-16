@@ -1,5 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import  React, { useReducer } from 'react';
+import Home from './components/Home/Home';
+import Services from './components/Services/Services';
+import Profile from './components/Profile/Profile';
+import NotFound from './components/NotFound/NotFound';
+import Navbar from './components/Navbar/Navbar';
+import Developpement from './components/Services/Developpement/Developpement';
+import Marketing from './components/Services/Marketing/Marketing';
+
 
 function App() {
 
